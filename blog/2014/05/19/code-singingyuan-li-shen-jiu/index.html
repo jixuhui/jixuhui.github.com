@@ -105,7 +105,7 @@
 
 <h2>而后，应该是苹果早期的sdk文档介绍code signing：【主要介绍关于certificate】</h2>
 
-<p><a href="http://blog.sina.com.cn/s/blog_45d0b2cb0100n7sq.html%E9%9C%80%E8%A6%81%E9%80%9A%E8%AF%BB%E5%85%A8%E6%96%87%EF%BC%8C%E6%96%B9%E6%9C%89%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3">http://blog.sina.com.cn/s/blog_45d0b2cb0100n7sq.html%E9%9C%80%E8%A6%81%E9%80%9A%E8%AF%BB%E5%85%A8%E6%96%87%EF%BC%8C%E6%96%B9%E6%9C%89%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3</a></p>
+<p><a href="http://blog.sina.com.cn/s/blog_45d0b2cb0100n7sq.html">http://blog.sina.com.cn/s/blog_45d0b2cb0100n7sq.html</a> 需要通读全文，方有深入理解</p>
 
 <ol>
 <li>完成apple id注册和申请developer后</li>
@@ -119,9 +119,13 @@ and copy that file to the second computer. Double-click the file to install the 
 
 <h2>About Code Signing</h2>
 
-<p>主要是一张图:<a href="https://developer.apple.com/library/ios/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40005929-CH1-SW1">https://developer.apple.com/library/ios/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40005929-CH1-SW1</a>
-1. 通过理解第二大部分的内容，这个图基本理解，图中有散列哈希后生成的message digest【摘要信息】，对它用私钥进行加密生成digital signature
-2. 最后，Data + signing certificate + digital signature = code-signed data</p>
+<p>主要是一张图:<a href="https://developer.apple.com/library/ios/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40005929-CH1-SW1">https://developer.apple.com/library/ios/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40005929-CH1-SW1</a></p>
+
+<ol>
+<li>通过理解第二大部分的内容，这个图基本理解，图中有散列哈希后生成的message digest【摘要信息】，对它用私钥进行加密生成digital signature</li>
+<li>最后，Data + signing certificate + digital signature = code-signed data</li>
+</ol>
+
 </div>
 
 
