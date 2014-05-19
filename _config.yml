@@ -101,7 +101,7 @@ facebook_like: false
 
 # duoshuo comments
 duoshuo_comments: true
-duoshuo_short_name: dev
+duoshuo_short_name: renewbrilliance
 
 duoshuo_asides_num: 10      # 侧边栏评论显示条目数
 duoshuo_asides_avatars: 0   # 侧边栏评论是否显示头像
