@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "code signing原理深究"
+title: "code signing 原理深究"
 date: 2014-05-19 17:44:13 +0800
 comments: true
 categories:
