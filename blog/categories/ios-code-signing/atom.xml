@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Renew Brilliance Blog]]></title>
-  <link href="http://jixuhui.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: iOS Code Signing | Renew Brilliance Blog]]></title>
+  <link href="http://jixuhui.github.com/blog/categories/ios-code-signing/atom.xml" rel="self"/>
   <link href="http://jixuhui.github.com/"/>
   <updated>2014-05-19T17:46:33+08:00</updated>
   <id>http://jixuhui.github.com/</id>
@@ -40,15 +40,6 @@ and copy that file to the second computer. Double-click the file to install the 
 主要是一张图：
 <a href="https://developer.apple.com/library/ios/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40005929-CH1-SW1">https://developer.apple.com/library/ios/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40005929-CH1-SW1</a>
 1.通过理解第二大部分的内容，这个图基本理解，图中有散列哈希后生成的message digest【摘要信息】，对它用私钥进行加密生成digital signature，最后，Data + signing certificate + digital signature = code-signed data</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello Myblog]]></title>
-    <link href="http://jixuhui.github.com/blog/2014/05/19/hello-myblog/"/>
-    <updated>2014-05-19T14:49:38+08:00</updated>
-    <id>http://jixuhui.github.com/blog/2014/05/19/hello-myblog</id>
-    <content type="html"><![CDATA[<p>Hello MyOctopress Blog!</p>
 ]]></content>
   </entry>
   
